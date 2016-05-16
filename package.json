@@ -1,11 +1,12 @@
 {
-  "name": "@mosfetish/lazy",
-  "version": "1.0.0",
+  "name": "@rstone770/lazy",
+  "version": "1.0.1",
   "description": "Lazy value initialization.",
   "main": "lazy.js",
   "scripts": {
     "test": "mocha ./tests/*.tests.js"
   },
+  "keywords": ["lazy", "lazy initialization"],
   "author": "Brenden Snyder",
   "license": "MIT",
   "devDependencies": {

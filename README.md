@@ -7,7 +7,7 @@ and is immediately available.
 
 ## Installation
 ```bash
-npm install @mosfetish/lazy --save
+npm install @rstone770/lazy --save
 ```
 
 
