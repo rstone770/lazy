@@ -1,0 +1,19 @@
+{
+  "name": "@mosfetish/lazy",
+  "version": "1.0.0",
+  "description": "Lazy value initialization.",
+  "main": "lazy.js",
+  "scripts": {
+    "test": "mocha ./tests/*.tests.js"
+  },
+  "author": "Brenden Snyder",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rstone770/lazy.git"
+  }
+}
