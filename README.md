@@ -42,9 +42,9 @@ This value is initially false and will become true after the factory has been in
 
 ```javascript
 var lazied = lazy(function() { /*...*/ });
-
 lazied.created; // false
-lazied.value;
+
+var value = lazied.value;
 lazied.created; // true
 ```
 
@@ -54,8 +54,7 @@ assigned to the result of the factory. This value is cached so future calls get 
 
 ```javascipt
 var lazied = lazy(function() { return {} });
-lazied.value // {}
-lazied.value == lazied.value; // true
+lazied.value === lazied.value; // true
 ```
 
 ### isLazy(value)
