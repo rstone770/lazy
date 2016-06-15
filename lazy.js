@@ -3,7 +3,7 @@
  * http://www.github.com/rstone770/lazy
  *
  * Licensed MIT
- **/
+ */
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     define([], factory);
